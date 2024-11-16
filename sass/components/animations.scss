@@ -1,0 +1,32 @@
+#home .left h1 {
+    animation: slide_h1 1s ease-in-out;
+}
+@keyframes slide_h1 {
+    0% { opacity: 0.5; transform: translateX(-50%); }
+    90% { opacity: 0.9; }
+    100% { opacity: 1; transform: translateX(0); }
+}
+#home .left .h4 {
+    animation: slide_h4 1s ease-in-out;
+}
+@keyframes slide_h4 {
+    0% { opacity: 0.5; transform: translateX(50%); }
+    90% { opacity: 0.9; }
+    100% { opacity: 1; transform: translateX(0); }
+}
+#home .left a {
+    animation: slide_a 1s ease-in-out;
+}
+@keyframes slide_a {
+    0% { opacity: 0.5; transform: translateY(50%); }
+    90% { opacity: 0.9; }
+    100% { opacity: 1; transform: translateY(0); }
+}
+#home .right .texte {
+    animation: slide_txt 1s ease-in-out;
+}
+@keyframes slide_txt {
+    0% { opacity: 0.5; transform: translateX(50%); }
+    90% { opacity: 0.9; }
+    100% { opacity: 1; transform: translateX(0); }
+}
